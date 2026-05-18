@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npx vite *)",
+      "Bash(curl *)",
+      "Bash(open *)",
+      "Skill(browse)",
+      "Read(//System/Library/Fonts/**)",
+      "Read(//System/Library/AssetsV2/com_apple_MobileAsset_Font7/**)",
+      "Bash(xargs ls *)",
+      "Bash(loadFile)",
+      "Bash(npm install *)",
+      "Bash(pkill -f \"node server.js\")",
+      "Bash(pip3 list *)",
+      "Bash(python3 -c \"from fontTools.subset import Subsetter; print\\('fonttools available'\\)\")",
+      "Bash(python3 *)",
+      "Bash(npm uninstall *)",
+      "Bash(DEEPSEEK_MODEL=deepseek-v4-pro node server.js)"
+    ]
+  },
+  "model": "deepseek-v4-pro"
+}
